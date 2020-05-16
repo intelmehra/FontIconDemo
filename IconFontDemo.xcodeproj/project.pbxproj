@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B9021532470213E00B096EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9021522470213E00B096EF /* AppDelegate.swift */; };
+		6B9021552470213E00B096EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9021542470213E00B096EF /* SceneDelegate.swift */; };
+		6B9021572470213E00B096EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9021562470213E00B096EF /* ContentView.swift */; };
+		6B9021592470214000B096EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9021582470214000B096EF /* Assets.xcassets */; };
+		6B90215C2470214000B096EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B90215B2470214000B096EF /* Preview Assets.xcassets */; };
+		6B90215F2470214000B096EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B90215D2470214000B096EF /* LaunchScreen.storyboard */; };
+		6B902168247021A000B096EF /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B902167247021A000B096EF /* iconfont.ttf */; };
+		6B90216B247028FF00B096EF /* FontConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B90216A247028FF00B096EF /* FontConstants.swift */; };
+		6B90216D24702A6500B096EF /* FontRepresntable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B90216C24702A6500B096EF /* FontRepresntable.swift */; };
+		6B90216F24702AAB00B096EF /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B90216E24702AAB00B096EF /* Font.swift */; };
+		6B90217124702D8C00B096EF /* IMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B90217024702D8C00B096EF /* IMButton.swift */; };
+		6B9021762470360C00B096EF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9021752470360C00B096EF /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B90214F2470213E00B096EF /* IconFontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9021522470213E00B096EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B9021542470213E00B096EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B9021562470213E00B096EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B9021582470214000B096EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B90215B2470214000B096EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B90215E2470214000B096EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B9021602470214000B096EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B902167247021A000B096EF /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		6B90216A247028FF00B096EF /* FontConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontConstants.swift; sourceTree = "<group>"; };
+		6B90216C24702A6500B096EF /* FontRepresntable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRepresntable.swift; sourceTree = "<group>"; };
+		6B90216E24702AAB00B096EF /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		6B90217024702D8C00B096EF /* IMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMButton.swift; sourceTree = "<group>"; };
+		6B9021752470360C00B096EF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B90214C2470213E00B096EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B9021462470213E00B096EF = {
+			isa = PBXGroup;
+			children = (
+				6B9021512470213E00B096EF /* IconFontDemo */,
+				6B9021502470213E00B096EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B9021502470213E00B096EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B90214F2470213E00B096EF /* IconFontDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B9021512470213E00B096EF /* IconFontDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B902174247035F900B096EF /* Detail View */,
+				6B902169247028EF00B096EF /* Helpers */,
+				6B9021662470215100B096EF /* Assests */,
+				6B9021522470213E00B096EF /* AppDelegate.swift */,
+				6B9021542470213E00B096EF /* SceneDelegate.swift */,
+				6B9021562470213E00B096EF /* ContentView.swift */,
+				6B90215D2470214000B096EF /* LaunchScreen.storyboard */,
+				6B9021602470214000B096EF /* Info.plist */,
+				6B90215A2470214000B096EF /* Preview Content */,
+			);
+			path = IconFontDemo;
+			sourceTree = "<group>";
+		};
+		6B90215A2470214000B096EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B90215B2470214000B096EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B9021662470215100B096EF /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				6B902167247021A000B096EF /* iconfont.ttf */,
+				6B9021582470214000B096EF /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		6B902169247028EF00B096EF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6B90217024702D8C00B096EF /* IMButton.swift */,
+				6B90216A247028FF00B096EF /* FontConstants.swift */,
+				6B90216C24702A6500B096EF /* FontRepresntable.swift */,
+				6B90216E24702AAB00B096EF /* Font.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6B902174247035F900B096EF /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				6B9021752470360C00B096EF /* DetailView.swift */,
+			);
+			path = "Detail View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B90214E2470213E00B096EF /* IconFontDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9021632470214000B096EF /* Build configuration list for PBXNativeTarget "IconFontDemo" */;
+			buildPhases = (
+				6B90214B2470213E00B096EF /* Sources */,
+				6B90214C2470213E00B096EF /* Frameworks */,
+				6B90214D2470213E00B096EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconFontDemo;
+			productName = IconFontDemo;
+			productReference = 6B90214F2470213E00B096EF /* IconFontDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B9021472470213E00B096EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ajay Singh Mehra";
+				TargetAttributes = {
+					6B90214E2470213E00B096EF = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B90214A2470213E00B096EF /* Build configuration list for PBXProject "IconFontDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B9021462470213E00B096EF;
+			productRefGroup = 6B9021502470213E00B096EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B90214E2470213E00B096EF /* IconFontDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B90214D2470213E00B096EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B902168247021A000B096EF /* iconfont.ttf in Resources */,
+				6B90215F2470214000B096EF /* LaunchScreen.storyboard in Resources */,
+				6B90215C2470214000B096EF /* Preview Assets.xcassets in Resources */,
+				6B9021592470214000B096EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B90214B2470213E00B096EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9021532470213E00B096EF /* AppDelegate.swift in Sources */,
+				6B90216D24702A6500B096EF /* FontRepresntable.swift in Sources */,
+				6B9021762470360C00B096EF /* DetailView.swift in Sources */,
+				6B90217124702D8C00B096EF /* IMButton.swift in Sources */,
+				6B90216F24702AAB00B096EF /* Font.swift in Sources */,
+				6B9021552470213E00B096EF /* SceneDelegate.swift in Sources */,
+				6B90216B247028FF00B096EF /* FontConstants.swift in Sources */,
+				6B9021572470213E00B096EF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B90215D2470214000B096EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B90215E2470214000B096EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B9021612470214000B096EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B9021622470214000B096EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B9021642470214000B096EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IconFontDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IconFontDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehra.IconFontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B9021652470214000B096EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IconFontDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IconFontDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehra.IconFontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B90214A2470213E00B096EF /* Build configuration list for PBXProject "IconFontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9021612470214000B096EF /* Debug */,
+				6B9021622470214000B096EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9021632470214000B096EF /* Build configuration list for PBXNativeTarget "IconFontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9021642470214000B096EF /* Debug */,
+				6B9021652470214000B096EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B9021472470213E00B096EF /* Project object */;
+}
